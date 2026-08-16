@@ -33,7 +33,7 @@ else:
 # Use a finally block to ensure that a "Cleanup complete" message prints regardless of whether the file was found or not.
 
 # Bonus: Use a with statement and explain why it's often preferred over a manual try-finally for files.
-
+"""
 try: 
     with open("data-structure/list.py", "r") as f:
         content = f.read()
@@ -43,7 +43,10 @@ except FileNotFoundError:
     print("Error: file not found")
 
 finally:
-    print("cleanup complete")
+    print("cleanup complete")"""
+
+
+
 
 
 
