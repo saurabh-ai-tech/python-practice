@@ -24,3 +24,7 @@ try:
     f.close()
 except FileExistsError:
     print(f"Q1 - Caught FileExistsError: Protected existing data from being overwritten.")
+
+
+# 2. Solution 
+
